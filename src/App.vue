@@ -5,7 +5,7 @@
         <img src="./assets/char.gif" />
       </div>
       <div>
-        <div class="bg-secondary w-[800px] h-[400px]  border-4 border-indigo-200 border-l-[white] m-auto">
+        <div class="bg-secondary w-[700px] h-[400px]  border-4 border-indigo-200 border-l-[white] m-auto">
           <div v-if="menu" class="flex flex-col items-center">
         <button @click="menu = false;play = true" class="bg-secondary w-56 hover:opacity-20 text-[white] mt-6 border-[white] border-4">Começar</button>
         <button @click="menu = false" class="bg-secondary w-56 hover:opacity-20 text-[white] mt-6 border-[white] border-4">Regras</button>
