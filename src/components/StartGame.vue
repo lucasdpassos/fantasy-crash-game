@@ -1,17 +1,18 @@
 <template>
     <div>
-        <button class="bg-secondary border-[white] border-4">Começar</button>
-        <button class="bg-secondary border-[white] border-4">Regras</button>
+        <img class="max-w-[200px] animate-pulse" src="../assets/sword.png" />
     </div>
-
 </template>
 
 <script>
 export default {
-    data: {
-        return: {
+    data() {
+        return {
 
         }
-    }
+    },
+     props: {
+    play: Boolean
+  } 
 }
 </script>
